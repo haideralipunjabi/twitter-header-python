@@ -2,8 +2,7 @@ name: Update Twitter Header
 on:
   workflow_dispatch:
   schedule:
-    - cron: '* * * * *'
-
+    - cron: '*/5 * * * *'
 jobs:
   getdata:
     name: Get Code
