@@ -37,7 +37,7 @@ def drawheader(data):
         ("Lists I am on",data['lists']),
         ("Tweets Liked",data['likes']),
     ])
-    d.multiline_text((750,450),"This Header Image has been generated using code. The code runs every 2 hours\nCode: github.com/haideralipunjabi/twitter-header-python",fill=COLORS["WHITE"],font=FONTS["SUBTITLE"],anchor="mm",align="center")
+    d.multiline_text((750,450),"This Header Image has been generated using code. The code runs every minute\nCode: github.com/haideralipunjabi/twitter-header-python",fill=COLORS["WHITE"],font=FONTS["SUBTITLE"],anchor="mm",align="center")
     img.save("header.png")
 
 def get_api():
