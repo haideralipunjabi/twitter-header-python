@@ -10,9 +10,9 @@ COLORS  = {
     "WHITE": "#FFFFFF",
 }
 FONTS = {
-    "TITLE": ImageFont.truetype(".github/fonts/OpenSans-Regular.ttf",40),
-    "NUMBERS": ImageFont.truetype(".github/fonts/OpenSans-ExtraBold.ttf",60),
-    "SUBTITLE": ImageFont.truetype(".github/fonts/OpenSans-Light.ttf",20),
+    "TITLE": ImageFont.truetype("fonts/OpenSans-Regular.ttf",40),
+    "NUMBERS": ImageFont.truetype("fonts/OpenSans-ExtraBold.ttf",60),
+    "SUBTITLE": ImageFont.truetype("fonts/OpenSans-Light.ttf",20),
 }
 
 
